@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+    padding-left: var(--gw);
+    padding-right: var(--gw);
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * var(--gw));
+    margin-right: calc(-1 * var(--gw));
+}
+.col-1{
+    width: 8.3333%;
+}
+.col-2{
+    width: 16.6666%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.3333%;
+}
+.col-5{
+    width: 41.6666%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.3333%;
+}
+.col-8{
+    width: 66.6666%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.3333%;
+}
+.col-11{
+    width: 91.6666%;
+}
+.col-12{
+    width: 100%;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
+    padding-left: var(--gw);
+    padding-right: var(--gw);
+} 
+.items-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+.self-end{
+    justify-self: flex-end;
+}
+.space-evenly{
+    align-content: space-evenly;
+}
+.align-self-center{
+    justify-self: center;
+}
+body{
+    background-color: rgb(219, 255, 219);
+}
+.title-bg{
+    background-color: rgb(104, 251, 104);
+    margin-top: 0;
+}
+.title{
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+.title h1{
+    text-align: center;
+    font-size: 55px;
+    color: white;
+    padding: 20px;
+}
+.blog-title{
+    margin-bottom: 30px;
+}
+.blog-title h2{
+    font-size: 45px;
+    font-family: 'Literata';
+    margin-bottom: 10px;
+}
+.blog-title p{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.animals{
+    width: 100%;
+    min-height: 200px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+.animals .animal-img{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+}
+.animals .animal-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.animals .content{
+    padding: 20px;
+}
+.c-title{
+    display: flex;
+    margin-bottom: 20px;
+}
+.location{
+    padding: 10px;
+    border: 1px solid black;
+    width: 80px;
+    text-align: center;
+    border-radius: 40px;
+}
+.btn{
+    margin-top: 40px;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 40px;
+}
